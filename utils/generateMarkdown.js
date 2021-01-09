@@ -50,7 +50,6 @@ function generateMarkdown(data) {
   This project is licensed under ${data.license} license
 
   ## Questions
-
   if you have any questions about the repo, open an issue or contact me directly at ${data.email}. 
   You can find more of my work at [${data.username}](https://github.com/${data.username}/) 
 
