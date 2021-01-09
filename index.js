@@ -7,12 +7,22 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
   {
     type: 'input',
-    message: 'Enter your project title:',
+    message: 'What is your Github username?',
+    name: 'username',
+  },
+  {
+    type: 'input',
+    message: 'What is your email address?',
+    name: 'email',
+  },
+  {
+    type: 'input',
+    message: 'What is your project name?',
     name: 'title',
   },
   {
     type: 'input',
-    message: 'Enter your project description:',
+    message: 'Please write a short description of your project',
     name: 'description',
   },
   {
@@ -35,15 +45,16 @@ const questions = [
     message: 'Enter your test instruction',
     name: 'test',
   },
-  // {
-  //   type: 'list',
-  //   message: 'Choose your license:',
-  //   choices: ['MIT', '']
-  // },
+  {
+    type: 'list',
+    message: 'Choose your license:',
+    name: 'license',
+    choices: ['MIT', 'Apache license 2.0', 'Boost Software License 1.0', 'ISC'],
+  },
 ];
 
 
-
+// TODO: Create a function to initialize app
 const promptUser = () => {
   inquirer.prompt([...questions]).then((response) => {
     writeToFile("readme.md", generateMarkdown(response))
@@ -58,10 +69,9 @@ const writeToFile = (fileName, data) => {
   });
 };
 
-promptUser();
-
-// TODO: Create a function to initialize app
-function init() {}
 
 // Function call to initialize app
-init();
+promptUser();
+
+
+
