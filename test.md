@@ -1,9 +1,9 @@
-# dsfdf
+# Good readme generator
   
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   ## Description 
 
-  dfdf
+  This command line application generates a readme.md file from user's input
 
   ## Table of Contents
   * [Installation](#installation)
@@ -16,27 +16,27 @@
   ## Installation
   To install necessary dependencies, run the following command:
 
-   dfd
+   npm i
 
   ## Usage
 
-  sdfsdf
+  tests
 
   ## Contribution guidelines
 
-  dsff
+  no contribution
 
   ## Test
   To run tests, run the following command:
 
-   
+  npm test 
 
   ## License
   This project is licensed under MIT license
 
   ## Questions
-  if you have any questions about the repo, open an issue or contact me directly at dfsdf. 
-  You can find more of my work at [dsfsdf](https://github.com/dsfsdf/) 
+  if you have any questions about the repo, open an issue or contact me directly at munkhuu1233@gmail.com. 
+  You can find more of my work at [mugich](https://github.com/mugich/) 
   
   
   
