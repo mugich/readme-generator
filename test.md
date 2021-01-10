@@ -1,9 +1,9 @@
-# 
+# dsfdf
   
-  ![License: Boost Software License 1.0](https://img.shields.io/badge/License-Boost Software License 1.0-brightgreen)
+  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   ## Description 
 
-  
+  dfdf
 
   ## Table of Contents
   * [Installation](#installation)
@@ -16,15 +16,15 @@
   ## Installation
   To install necessary dependencies, run the following command:
 
-   
+   dfd
 
   ## Usage
 
-  
+  sdfsdf
 
   ## Contribution guidelines
 
-  
+  dsff
 
   ## Test
   To run tests, run the following command:
@@ -32,11 +32,11 @@
    
 
   ## License
-  This project is licensed under Boost Software License 1.0 license
+  This project is licensed under MIT license
 
   ## Questions
-  if you have any questions about the repo, open an issue or contact me directly at . 
-  You can find more of my work at [](https://github.com//) 
+  if you have any questions about the repo, open an issue or contact me directly at dfsdf. 
+  You can find more of my work at [dsfsdf](https://github.com/dsfsdf/) 
   
   
   
