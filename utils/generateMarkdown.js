@@ -1,24 +1,34 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-const renderLicenseBadge = () => {}
- 
-
-
-
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseBadge(license) {
+     
+  switch (license) {
+  
+    case "MIT":
+      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+     
+    
+    case "Apache license 2.0":
+      return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+      
+    case "Boost Software License 1.0":
+      return "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+     
+    case "ISC":
+      return "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
+      
+    default: return "";      
+  } 
+  
+}
+var badge = renderLicenseBadge();
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-  [![License](https://img.shields.io/badge/License-${data.license}-blue.svg)]
 
+  return `# ${data.title}
+  ${badge}
+  ![License: ${(data.license) ? data.license : 'None'}](https://img.shields.io/badge/License-${(data.license) ? data.license : 'None'}-brightgreen)
   ## Description 
 
   ${data.description}
@@ -60,7 +70,7 @@ function generateMarkdown(data) {
   
 `;
 
-}
 
+}
 
 module.exports = generateMarkdown;

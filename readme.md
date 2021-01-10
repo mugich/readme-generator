@@ -1,42 +1,27 @@
-# readme generator
-  [![License](https://img.shields.io/badge/License-Apache license 2.0-blue.svg)]
+# README GENERATOR
 
-  ## Description 
+## Project Description "Readme generator" 
 
-  
+This command-line application that dynamically generates a README.md from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). The application will be invoked with the following command node index.js They will then be prompted with questions about project.
 
-  ## Table of Contents
+The application will be invoked by using the following command:
+
+```bash
+node index.js
+```
+
+ ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
   * [Contribution](#contribution)
   * [Test](#tests)
   * [Questions](#question)
-  
-  ## Installation
-  To install necessary dependencies, run the following command:
 
-   installation
+### Application link
 
-  ## Usage
+* [GitHub repositories](https://github.com/mugich/readme-generator)
 
-  usage
 
-  ## Contribution guidelines
-
-  
-
-  ## Test
-  To run tests, run the following command:
-
-  test 
-
-  ## License
-  This project is licensed under Apache license 2.0 license
-
-  ## Questions
-  if you have any questions about the repo, open an issue or contact me directly at munkhuu1233@gmail.com. 
-  You can find more of my work at [mugich](https://github.com/mugich/) 
-  
-  
-  
+### Application's appearance
+![screenshot](./assets/images/weather.png)
