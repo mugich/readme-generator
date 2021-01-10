@@ -24,4 +24,4 @@ node index.js
 
 
 ### Application's appearance
-![screenshot](./assets/images/weather.png)
+![screenshot](./assets/readme.png)
