@@ -1,9 +1,9 @@
-# Good readme generator
-  
-  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# sadsa
+  [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+ 
   ## Description 
 
-  This command line application generates a readme.md file from user's input
+  asdsad
 
   ## Table of Contents
   * [Installation](#installation)
@@ -16,27 +16,27 @@
   ## Installation
   To install necessary dependencies, run the following command:
 
-   npm i
+   sdfsdf
 
   ## Usage
 
-  tests
+  sdfsdf
 
   ## Contribution guidelines
 
-  no contribution
+  sdfsdf
 
   ## Test
   To run tests, run the following command:
 
-  npm test 
+  sdfsdf 
 
   ## License
-  This project is licensed under MIT license
+  This project is licensed under Boost Software License 1.0 license
 
   ## Questions
-  if you have any questions about the repo, open an issue or contact me directly at munkhuu1233@gmail.com. 
-  You can find more of my work at [mugich](https://github.com/mugich/) 
+  if you have any questions about the repo, open an issue or contact me directly at . 
+  You can find more of my work at [](https://github.com//) 
   
   
   
